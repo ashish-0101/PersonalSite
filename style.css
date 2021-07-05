@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.2rem;
+    color: #40514e;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 80px auto 0 auto;
+    /* font-family: 'Merriweather Sans', sans-serif; */
+    font-family: 'Sacramento', cursive; 
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3 {
+    color: #11999E;
+    font-size: 1.5rem;
+}
+
+p{
+    line-height: 3rem;
+
+}
+
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    height: 20px;
+    width: 9%;
+    border-width: 8px;
+    color: gray;
+}
+
+
+
+/*********************************** CLASS Selectors ********************************************/
+ 
+
+
+.top-container {
+    /* background-color: #e4f9f4; */
+    background-color: #b8fff0;
+    position: relative;
+}   
+
+.middle-container {
+}
+
+.bottom-container {
+   background-color: #66BFBF;
+   padding-top: 60px;
+   position: relative
+   ;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 50px;
+    width: 20%;
+}
+
+.top-cloud {
+    position: absolute;
+    width: 20%;
+    top: 50px;
+    right: 50px;
+}
+
+.heading {
+    padding-top: 1px;    
+    padding-bottom: 30px;
+}
+
+.size {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.profile-image {
+    margin-top: 30px;
+    width: 15%;
+}
+
+.skill-row{
+    margin: 70px auto 79px auto;
+    width: 50%;
+}
+
+.code-img{
+    width: 30%;
+    border-radius: 100px;
+   /*  float: left;
+    align-items: left; */
+    /* margin-right: 50px; */
+}
+
+.chess-img{
+    width: 30%;
+   /*  float: right;
+    align-items: left; */
+    /* margin-left: 50px; */
+}
+
+.btn{
+    text-decoration: none;
+    position: relative;
+    top: 13px;
+    border-radius: 17px;
+    background-color: #66BFBF;
+    padding: 10px 20px 10px 20px;
+    color: #eafef6;
+}
+
+.btn:hover{
+    background-color: #7da7a0;
+}
+
+.contact-me{
+  margin-bottom: 100px;
+}
+
+.copyright{
+    margin: 0;
+    color: #eafef6;
+}
+
+
+.footer-link{
+    /* position: absolute; */
+    position: relative;
+    bottom: 20px;
+    text-decoration: none;
+    margin: 20px 20px 40px 20px;
+    color: #11999e;
+}
+
+.profile{
+    margin-bottom: 55px;
+}
+
+.mountain{
+    width: 60%;
+}
+
+.bold {
+    font-weight: 1000;
+    
+}
